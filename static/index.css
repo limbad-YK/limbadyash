@@ -37,7 +37,7 @@ ul{
     list-style-type: none;
     margin: 0px;
     padding: 0;
-    overflow: scroll;
+    overflow:hidden;
     background-color: rgb(40, 40, 40);
 }
 
@@ -125,7 +125,6 @@ li a:hover{
     border-radius: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 4px solid whitesmoke;
-    opacity: 0.6;
 }
 
 #name{
@@ -148,10 +147,11 @@ li a:hover{
 .desc{
     background-color:burlywood;
     border-radius: 16px;
+    border: 1px outset #222;
     padding: 14px 16px;
     margin-left: 20%;
     margin-right: 25%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 2px 2px 4px rgba(0.4, 0.4, 0.4, 0.4);
 }
 
 .desc ul{
@@ -177,7 +177,7 @@ li a:hover{
     padding-left: 12px;
     padding-top: 10%;
     padding-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 2rem;
     margin-bottom: 5%;
 }
 
@@ -299,8 +299,9 @@ span{
     border-radius: 16px;
     padding: 20px 24px;
     margin-left: 20%;
+    margin-bottom: 18px;
     margin-right: 28%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 2px 2px 4px rgba(0.4,0.4,0.4,0.4);
 }
 
 /* Project */
@@ -318,6 +319,7 @@ span{
   max-width: 700px;
   position: relative;
   margin: auto;
+  margin-top: 2rem;
 }
 
 .mySlides {
@@ -400,7 +402,7 @@ span{
 
 /* Contact */
 .cont h4{
-    margin-top: 10%;
+    margin-top: 4rem;
     background-color: #222;
     border-radius: 12px;
     height: 20px;
@@ -422,8 +424,6 @@ span{
     left: 350px;
     margin-bottom: 30px;
 }
-
-
 
 .row::after{
     content: "";
